@@ -4,7 +4,8 @@ import { Helmet } from 'react-helmet-async'
 function Home() {
     return (
         <div>
-            <Helmet> <title>ShopMondo – Discover Trendy Fashion & Deals</title>
+            <Helmet>
+                <title>ShopMondo – Discover Trendy Fashion & Deals</title>
                 <meta
                     name="description"
                     content="ShopMondo is your go-to for trendy fashion for men and women. Explore new arrivals, enjoy free shipping, and shop with confidence."
@@ -31,7 +32,8 @@ function Home() {
                 <meta
                     name="twitter:image"
                     content="https://dokan.co/app/uploads/2024/12/Top-Fashion-eCommerce-Trends.jpg"
-                /></Helmet>
+                />
+            </Helmet>
             <h1 className='text-4xl mt-[20px]'>HOME Page</h1>
         </div>
     )
